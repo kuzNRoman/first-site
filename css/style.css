@@ -1,0 +1,290 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body{
+	background: #edeaf0;
+	font-family: 'Comfortaa', cursive; 
+	font-size: 14px;
+	color: #000000;
+	min-width: 320px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 114px;
+    color: #3b70aa;
+}
+h2{
+    font-family: 'Comfortaa', cursive; 
+    font-size: 80px;
+}
+h3{
+	font-size: 36px;
+	font-weight: 700;
+        color: #000000;
+        font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+/* =============================header============================== */
+.header .item{
+	min-height:700px;;
+}
+.header .bgslide{
+	background-size: contain;
+	background-position: center center; 
+	position: fixed;
+	left: 0;	
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.carousel.fade{
+	opacity: 1;
+}
+.carousel.fade .item{
+	opacity: 0;
+	transition: opacity .5s;
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.carousel.fade .item.active{
+	opacity: 1;
+	position: relative;
+}
+.header .carousel-caption{
+	margin: 0 auto;
+	top:35%;
+}
+
+/* =============================uslugi============================== */
+.uslugi-head{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 30;
+    margin: 0 auto;
+}
+.kart_cent{
+    width:50%;
+    margin: 0 auto;
+}
+
+/* =============================portfolio============================== */
+.portfolio{
+    margin-top:50px;
+    background-size: cover;
+    background-position: center center; 
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+}
+
+/* =============================process============================== */
+.process p{
+    color: #3b70aa;
+}
+
+/* =============================about_us============================== */
+.logo_small{
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    color: #3b70aa;
+}
+
+/* =============================write_us============================== */
+.write_us{
+    margin-top:50px;
+    background-size: cover;
+    background-position: center center; 
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+}
+
+/* =============================contact_form============================== */
+.forma
+{
+    height: 100vh;
+    margin: 0 auto;
+}
+.forma_ob
+{
+   background-color: #efeef8;
+   background:  white;
+   opacity: 0.4;
+   width:50%;
+   height: 85%;
+   margin-top: 50px;
+   position: absolute;
+   left: 25%;
+   z-index: 1;
+}
+.form_o_b
+{
+   width:50%;
+   height: 85%;
+   margin-top: 50px;
+   position: absolute;
+   left: 25%;
+   z-index: 4;
+}
+h4{
+    padding-top: 20px;
+    font-family: 'Comfortaa', cursive; 
+    font-size: 80px;
+}
+.contact_us_form_pole {
+        width: 80%;
+        height: 45px;
+	font-family: 'Pacifico', cursive;
+	text-transform: uppercase;
+	padding-left:15px;
+	margin-top:20px;
+	border:1px solid #6780db;
+	border-radius:4px;
+}
+.contact_us_form_pole_mess
+{
+	width: 80%;
+        height: 100px;
+	font-family: 'Pacifico', cursive;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-left:15px;
+	margin-top:20px;
+	border:1px solid #6780db;
+	border-radius:8px;
+        margin-bottom: 20px;
+}
+.contact_button {
+    height: 65px;
+    width: 240px;
+    border: 1px solid #6780db;
+    background-color: #4867d6;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    text-align: center;    
+    line-height: 65px;
+}
+
+/* =============================footer============================== */
+.footer{
+    margin-top:0;
+    background-size: cover;
+    background-position: center center; 
+    width: 100%;
+    height: 100%;
+    height: 60px;
+    background-color: #6780db;
+}
+
+
+
+@media only screen and (min-width: 1100px) {
+  .cd-read-more {
+    display: block;
+    position: absolute;
+    top: 3em;
+    right: 0;
+  }
+  .cd-read-more.fixed {
+    position: fixed;
+    right: calc(50% - 485px);
+  }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1215px) {
+    h4{
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width : 1200px) {
+	
+}
+
+@media only screen and (max-width : 1024px) {
+    h1{
+        font-size: 100px;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+@media only screen and (max-width : 940px) {
+    h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    .item p{
+        font-size: 15px;
+    }
+    h4{
+        font-size: 50px;
+    }
+    .forma_ob{
+        width:70%;
+        left: 15%;
+    }
+    .form_o_b{
+        width:70%;
+        left: 15%;
+    }
+}
+@media only screen and (max-width : 685px) {
+    h1{
+        font-size: 70px;
+    }
+    h3{
+        font-size: 30px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+@media only screen and (max-width : 767px) {
+    
+}
+@media only screen and (max-width : 545px) {
+    h1{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 25px;
+        color: white;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 495px){
+    .contact_us_form_pole_mess{
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width : 480px) {
+    h1{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 20px;
+    }
+}
